@@ -27,6 +27,8 @@ def main():
 
 	not_in_both = in_ers + in_ing
 
-	print("not mutual followers: ", not_in_both)
+	print("following but not a follower: ", in_ing)
+
+	#print("not mutual followers: ", not_in_both)
 
 main()
